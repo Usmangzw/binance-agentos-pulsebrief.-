@@ -71,5 +71,5 @@ No orders. Not financial advice. Restricted regions in the official post cannot 
 ## Hackathon
 
 Track A  
-Demo: paste your video link here  
+Demo: https://youtube.com/shorts/SJxNpnXkEYM?si=JpucGWY5vPRktZKJ
 Repo: https://github.com/Usmangzw/binance-agentos-pulsebrief.-
