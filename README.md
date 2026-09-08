@@ -16,3 +16,62 @@ Ticker + 1h klines
 SMA20 / SMA50
         ↓
 Short brief
+```
+
+Two ways to run it:
+
+1. Node demo: `npm start`
+2. Agent OS: MCP + AGENT.md + prompts/daily-brief.md
+
+## Quick start
+
+Need Node 18+.
+
+```bash
+git clone https://github.com/Usmangzw/binance-agentos-pulsebrief.-.git
+cd binance-agentos-pulsebrief.-
+npm start
+```
+
+One pair:
+
+```bash
+node src/index.js ETHUSDT
+```
+
+No API keys.
+
+## Agent OS / MCP
+
+```bash
+claude mcp add binance-mcp-server --transport http https://agent.binance.com/mcp/agentic
+```
+
+Grant market data only. Leave trading off.
+
+Product: https://www.binance.com/en/agent-os
+
+## Repo
+
+- AGENT.md
+- skills.md
+- package.json
+- prompts/daily-brief.md
+- prompts/single-pair.md
+- src/index.js
+- src/binance.js
+- src/sma.js
+- src/brief.js
+- src/reporter.js
+
+## Limits
+
+No orders. Not financial advice. Restricted regions in the official post cannot enter.
+
+## Hackathon
+
+Track A  
+Demo: paste your video link here  
+Repo: https://github.com/Usmangzw/binance-agentos-pulsebrief.-
+
+Also fix `package.json` so line 1 is `{`, not ` ```json `, or `npm start` still fails.
