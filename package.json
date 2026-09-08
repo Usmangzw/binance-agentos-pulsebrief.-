@@ -1,0 +1,13 @@
+```json
+{
+  "name": "binance-agentos-pulsebrief",
+  "version": "1.0.0",
+  "description": "Market briefing agent using Binance market data and Agent OS MCP.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
