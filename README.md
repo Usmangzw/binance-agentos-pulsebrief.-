@@ -73,5 +73,3 @@ No orders. Not financial advice. Restricted regions in the official post cannot 
 Track A  
 Demo: paste your video link here  
 Repo: https://github.com/Usmangzw/binance-agentos-pulsebrief.-
-
-Also fix `package.json` so line 1 is `{`, not ` ```json `, or `npm start` still fails.
