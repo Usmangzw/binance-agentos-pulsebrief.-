@@ -1,4 +1,4 @@
-const SPOT = "https://api.binance.com";
+const SPOT = "https://data-api.binance.vision";
 
 async function getJson(url) {
   const res = await fetch(url);
